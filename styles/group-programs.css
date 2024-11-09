@@ -1,0 +1,142 @@
+
+
+.hero-background-container{
+  background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0.7)), url('../backgrounds/background-2.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  padding: .8rem calc((70vw - 1200px) / 2);
+}
+
+
+.grp-programs-title-wrapper{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  
+}
+
+.grp-programs-title-wrapper h3{
+  color: var(--secondary-color);
+  font-size: clamp(1rem, 4vw, 1.2rem);
+}
+
+.grp-programs-title-wrapper h1{
+  font-size: clamp(1rem, 8vw, 4.2rem);
+  text-transform: uppercase;
+  font-style: italic;
+  color: #fff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary-color);
+  -moz-text-stroke-width: 1px;
+  -moz-text-stroke-color: var(--primary-color);
+  white-space: nowrap;
+
+  text-decoration: underline 4px solid var(--secondary-color);
+  text-underline-offset: .8rem;
+
+  margin-bottom: 1rem;
+  
+  
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  justify-items: center;
+  align-content: center;
+  margin-bottom: 4rem;
+}
+
+
+.grp-programs-card-container{
+  color: #fff;
+  width: 70%;
+  border: 2px solid var(--secondary-color);
+  margin-top: 2.5rem;
+  padding: .8rem;
+  border-radius: 2rem;
+  background-color: #000;
+  
+}
+
+
+
+.grp-programs-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.grp-programs-img{
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1.2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.grp-programs-title{
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-size: clamp(1rem, 8vw, 1.5rem);
+  transition: all .2s;
+  color: var(--secondary-color);
+}
+
+.grp-programs-title:hover{
+  color: #fff;
+}
+
+.grp-programs-desc{
+  text-align: center;
+  max-width: 350px;
+  margin-bottom: 1rem;
+}
+
+
+.reservation-container-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+
+  color: #fff;
+}
+
+
+
+@media screen and ( 768px <= width <= 1280px ) {
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
+
+
+
+
+
+
