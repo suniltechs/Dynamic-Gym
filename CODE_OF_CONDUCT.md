@@ -1,4 +1,3 @@
-```markdown
 # Code of Conduct
 
 We are committed to providing a welcoming and inclusive community for all, regardless of gender, sexual orientation, disability, race, ethnicity, age, religion, or other personal characteristics.
