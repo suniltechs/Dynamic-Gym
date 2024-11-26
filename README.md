@@ -1,6 +1,3 @@
-Here’s an example of a **README.md** file for the **Dynamic-Gym** project on GitHub:
-
-```markdown
 # Dynamic Gym Website
 
 This is a responsive website for **Dynamic Gym**, created using **HTML**, **CSS**, and **JavaScript**. The website showcases a user-friendly and visually appealing design, offering various interactive features for potential clients. 
