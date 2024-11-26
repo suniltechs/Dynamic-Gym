@@ -77,4 +77,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 Thank you for exploring the **Dynamic Gym Website** repository! If you have any questions, feel free to reach out via issues or pull requests.
-```
