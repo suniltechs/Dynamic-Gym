@@ -45,4 +45,3 @@ This Code of Conduct applies to all spaces related to the **Dynamic-Gym** reposi
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.0.
-```
