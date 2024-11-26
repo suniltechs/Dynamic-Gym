@@ -1,4 +1,3 @@
-```markdown
 # Learn from Dynamic Gym Website
 
 Welcome to the **Dynamic Gym Website** repository! This project is built to demonstrate front-end development using HTML, CSS, JavaScript, and various libraries. It is a responsive, interactive website designed for a fictional gym, showcasing the skills and technologies used to create a professional-looking website.
